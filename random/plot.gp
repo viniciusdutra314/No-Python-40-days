@@ -1,5 +1,5 @@
 # Set up the terminal and output file
-set terminal pngcairo size 1920,1080 enhanced font 'Verdana,12'
+set terminal pngcairo size 800,600 enhanced font 'Verdana,12'
 set output 'histogram.png'
 
 # Set the title and labels
