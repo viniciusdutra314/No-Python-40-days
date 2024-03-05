@@ -4,7 +4,7 @@
 #include <iostream>
 
 float pdf_func(float x){
-    float mu=0; float sigma=1;
+    float mu=0; float sigma=2;
     float y= exp(-pow((x-mu)/sigma,2)/2)/(sigma*sqrt(2*M_PI));
     return y ;
 
